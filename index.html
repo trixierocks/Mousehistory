@@ -17,13 +17,52 @@
      background-size: cover;
      background-repeat: no-repeat; }
 
+   
+    body {margin:0;
+    }
+    
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+    
+    li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
     </style>
  </head>
   <body>
+    
+    <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#history">History</a></li>
+  <li><a href="#types">Types of Mouse</a></li>
+  <li><a href="#inventor">Douglas Engelbart</a></li>
+  <li><a href="#keyset">Keyset</a></li>
+  <li><a href="#bibliography">Bibliography</a></li>
+</ul>
+
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
     <h1>Mouse History</h1>
-    
-    
-    
   
     <p>A computer mouse is an input device that is often used with a personal computer. Moving a mouse along a flat surface can move the on-screen cursor to different items on the screen. Items can be moved or selected by pressing the mouse buttons.<br>
     It is called a computer mouse because of the wire that connects the mouse to the computer. The people who designed the first computer mice thought that it looked like the tail on a mouse. Today, many computer mice use wireless technology and have no wire.<br>
@@ -39,7 +78,7 @@
       8 years later (1972), <strong><em>Bill English</em></strong> developed the design by inventing the <em>"Ball Mouse"</em>.<br> The ball replaced the wheels 
     and was capable of monitoring movement in any direction.<br>
     </p>
-      
+    </div>
   <h1><strong>Types of mouse</strong></h1>
     <ul>
     <li><strong>Mechanical Mouse (ball mouse)</strong> - In 1972, Bill English (builder of Engelbart’s original mouse) invented the ball mouse, while working for Xerox PARC. In this, a single mouse was replaced by the external wheels, which could roll in any direction.</li>
